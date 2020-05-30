@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		84053A722481E93D00A698AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053A712481E93D00A698AA /* AppDelegate.swift */; };
-		84053A742481E93D00A698AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053A732481E93D00A698AA /* SceneDelegate.swift */; };
 		84053A762481E93D00A698AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053A752481E93D00A698AA /* ViewController.swift */; };
 		84053A792481E93D00A698AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84053A772481E93D00A698AA /* Main.storyboard */; };
 		84053A7B2481E94200A698AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84053A7A2481E94200A698AA /* Assets.xcassets */; };
 		84053A7E2481E94200A698AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84053A7C2481E94200A698AA /* LaunchScreen.storyboard */; };
 		84053A892481E94200A698AA /* WKDJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053A882481E94200A698AA /* WKDJTests.swift */; };
 		84053A942481E94200A698AA /* WKDJUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053A932481E94200A698AA /* WKDJUITests.swift */; };
+		84053AA82481ECEE00A698AA /* ZMNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053AA72481ECEE00A698AA /* ZMNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		84053A6E2481E93D00A698AA /* WKDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84053A712481E93D00A698AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84053A732481E93D00A698AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84053A752481E93D00A698AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84053A782481E93D00A698AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84053A7A2481E94200A698AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		84053A8F2481E94200A698AA /* WKDJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKDJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84053A932481E94200A698AA /* WKDJUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKDJUITests.swift; sourceTree = "<group>"; };
 		84053A952481E94200A698AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84053AA72481ECEE00A698AA /* ZMNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,9 @@
 		84053A702481E93D00A698AA /* WKDJ */ = {
 			isa = PBXGroup;
 			children = (
+				84053AA62481ECD400A698AA /* Extension */,
+				84053AA12481ECB400A698AA /* Home */,
 				84053A712481E93D00A698AA /* AppDelegate.swift */,
-				84053A732481E93D00A698AA /* SceneDelegate.swift */,
 				84053A752481E93D00A698AA /* ViewController.swift */,
 				84053A772481E93D00A698AA /* Main.storyboard */,
 				84053A7A2481E94200A698AA /* Assets.xcassets */,
@@ -126,6 +127,53 @@
 				84053A952481E94200A698AA /* Info.plist */,
 			);
 			path = WKDJUITests;
+			sourceTree = "<group>";
+		};
+		84053AA12481ECB400A698AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84053AA22481ECB500A698AA /* ViewModel */,
+				84053AA32481ECB500A698AA /* ViewCotroller */,
+				84053AA42481ECB500A698AA /* Model */,
+				84053AA52481ECB500A698AA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84053AA22481ECB500A698AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84053AA32481ECB500A698AA /* ViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewCotroller;
+			sourceTree = "<group>";
+		};
+		84053AA42481ECB500A698AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84053AA52481ECB500A698AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84053AA62481ECD400A698AA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84053AA72481ECEE00A698AA /* ZMNavigationViewController.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84053AA82481ECEE00A698AA /* ZMNavigationViewController.swift in Sources */,
 				84053A762481E93D00A698AA /* ViewController.swift in Sources */,
 				84053A722481E93D00A698AA /* AppDelegate.swift in Sources */,
-				84053A742481E93D00A698AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW363H5865;
 				INFOPLIST_FILE = WKDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW363H5865;
 				INFOPLIST_FILE = WKDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
