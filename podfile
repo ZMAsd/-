@@ -1,0 +1,18 @@
+platform :ios, '12.0'
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'WKDJ' do
+
+pod 'Alamofire'                   # https://github.com/Alamofire/Alamofire
+pod 'HandyJSON'                   # https://github.com/alibaba/handyjson
+pod 'PINCache'                    # https://github.com/pinterest/PINCache
+pod 'RxSwift'                     # https://github.com/ReactiveX/RxSwift
+pod 'RxCocoa'                     # https://github.com/ReactiveX/RxSwift
+pod 'JXSegmentedView'             # https://github.com/pujiaxin33/JXSegmentedView
+pod 'MBProgressHUD'               # http://www.bukovinski.com
+pod 'SnapKit'                     # https://github.com/SnapKit/SnapKit
+pod 'MJRefresh'                   # https://github.com/CoderMJLee/MJRefresh
+pod 'SDWebImage'                  # https://github.com/SDWebImage/SDWebImage
+
+end

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,27 @@
 		84053A892481E94200A698AA /* WKDJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053A882481E94200A698AA /* WKDJTests.swift */; };
 		84053A942481E94200A698AA /* WKDJUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053A932481E94200A698AA /* WKDJUITests.swift */; };
 		84053AA82481ECEE00A698AA /* ZMNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84053AA72481ECEE00A698AA /* ZMNavigationViewController.swift */; };
+		84363C9C248360D200CFA6C7 /* UIImageView+DefaultSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 84363C9B248360D200CFA6C7 /* UIImageView+DefaultSetting.m */; };
+		84363C9F2483B83E00CFA6C7 /* ZMGameListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84363C9D2483B83D00CFA6C7 /* ZMGameListCollectionViewController.swift */; };
+		84363CA02483B83E00CFA6C7 /* ZMGameListCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84363C9E2483B83D00CFA6C7 /* ZMGameListCollectionViewController.xib */; };
+		84363CA32483B89600CFA6C7 /* ZMGameListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84363CA12483B89600CFA6C7 /* ZMGameListCollectionViewCell.swift */; };
+		84363CA42483B89600CFA6C7 /* ZMGameListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84363CA22483B89600CFA6C7 /* ZMGameListCollectionViewCell.xib */; };
+		84363CA62483F0C900CFA6C7 /* ZMGameListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84363CA52483F0C900CFA6C7 /* ZMGameListInfo.swift */; };
+		84DA234F2482354E00B33587 /* ZMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA234D2482354E00B33587 /* ZMHomeViewController.swift */; };
+		84DA23502482354E00B33587 /* ZMHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA234E2482354E00B33587 /* ZMHomeViewController.xib */; };
+		84DA235324823B5A00B33587 /* ZMSportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA235124823B5A00B33587 /* ZMSportsViewController.swift */; };
+		84DA235424823B5A00B33587 /* ZMSportsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA235224823B5A00B33587 /* ZMSportsViewController.xib */; };
+		84DA235724823C3A00B33587 /* ZMSprotGameListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA235524823C3A00B33587 /* ZMSprotGameListCollectionViewCell.swift */; };
+		84DA235824823C3A00B33587 /* ZMSprotGameListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA235624823C3A00B33587 /* ZMSprotGameListCollectionViewCell.xib */; };
+		84DA235A2482407100B33587 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA23592482407100B33587 /* UICollectionViewExtension.swift */; };
+		84DA235C248244D800B33587 /* ZMScreenUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA235B248244D700B33587 /* ZMScreenUtils.swift */; };
+		84DA235E248254AD00B33587 /* ZMBaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA235D248254AD00B33587 /* ZMBaseData.swift */; };
+		84DA23622482582D00B33587 /* ZMHomeSportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA23612482582D00B33587 /* ZMHomeSportData.swift */; };
+		84DA23642482667400B33587 /* ZMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA23632482667400B33587 /* ZMAPI.swift */; };
+		84DA23662482701D00B33587 /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA23652482701D00B33587 /* RequestRouter.swift */; };
+		84DA23682482B0A700B33587 /* ZMAPI+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA23672482B0A600B33587 /* ZMAPI+Home.swift */; };
+		84DA236A2482B91300B33587 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA23692482B91300B33587 /* HomeViewModel.swift */; };
+		CA8D51A7F8FF4BEBA4DA1874 /* Pods_WKDJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770C9F3AB358C43C3A3E92E2 /* Pods_WKDJ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84053A6E2481E93D00A698AA /* WKDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D0C194B13A108832A69E92 /* Pods-WKDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKDJ.debug.xcconfig"; path = "Target Support Files/Pods-WKDJ/Pods-WKDJ.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA5360ED1D3A3C119A28541 /* Pods-WKDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKDJ.release.xcconfig"; path = "Target Support Files/Pods-WKDJ/Pods-WKDJ.release.xcconfig"; sourceTree = "<group>"; };
+		770C9F3AB358C43C3A3E92E2 /* Pods_WKDJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKDJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84053A6E2481E93D00A698AA /* 竞技帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "竞技帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84053A712481E93D00A698AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84053A752481E93D00A698AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84053A782481E93D00A698AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +73,28 @@
 		84053A932481E94200A698AA /* WKDJUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKDJUITests.swift; sourceTree = "<group>"; };
 		84053A952481E94200A698AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84053AA72481ECEE00A698AA /* ZMNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMNavigationViewController.swift; sourceTree = "<group>"; };
+		84363C9624835FB200CFA6C7 /* WKDJ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKDJ-Bridging-Header.h"; sourceTree = "<group>"; };
+		84363C9A248360D200CFA6C7 /* UIImageView+DefaultSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DefaultSetting.h"; sourceTree = "<group>"; };
+		84363C9B248360D200CFA6C7 /* UIImageView+DefaultSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DefaultSetting.m"; sourceTree = "<group>"; };
+		84363C9D2483B83D00CFA6C7 /* ZMGameListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMGameListCollectionViewController.swift; sourceTree = "<group>"; };
+		84363C9E2483B83D00CFA6C7 /* ZMGameListCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMGameListCollectionViewController.xib; sourceTree = "<group>"; };
+		84363CA12483B89600CFA6C7 /* ZMGameListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMGameListCollectionViewCell.swift; sourceTree = "<group>"; };
+		84363CA22483B89600CFA6C7 /* ZMGameListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMGameListCollectionViewCell.xib; sourceTree = "<group>"; };
+		84363CA52483F0C900CFA6C7 /* ZMGameListInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMGameListInfo.swift; sourceTree = "<group>"; };
+		84DA234D2482354E00B33587 /* ZMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMHomeViewController.swift; sourceTree = "<group>"; };
+		84DA234E2482354E00B33587 /* ZMHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMHomeViewController.xib; sourceTree = "<group>"; };
+		84DA235124823B5A00B33587 /* ZMSportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMSportsViewController.swift; sourceTree = "<group>"; };
+		84DA235224823B5A00B33587 /* ZMSportsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMSportsViewController.xib; sourceTree = "<group>"; };
+		84DA235524823C3A00B33587 /* ZMSprotGameListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMSprotGameListCollectionViewCell.swift; sourceTree = "<group>"; };
+		84DA235624823C3A00B33587 /* ZMSprotGameListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMSprotGameListCollectionViewCell.xib; sourceTree = "<group>"; };
+		84DA23592482407100B33587 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		84DA235B248244D700B33587 /* ZMScreenUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMScreenUtils.swift; sourceTree = "<group>"; };
+		84DA235D248254AD00B33587 /* ZMBaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMBaseData.swift; sourceTree = "<group>"; };
+		84DA23612482582D00B33587 /* ZMHomeSportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMHomeSportData.swift; sourceTree = "<group>"; };
+		84DA23632482667400B33587 /* ZMAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMAPI.swift; sourceTree = "<group>"; };
+		84DA23652482701D00B33587 /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		84DA23672482B0A600B33587 /* ZMAPI+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZMAPI+Home.swift"; sourceTree = "<group>"; };
+		84DA23692482B91300B33587 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8D51A7F8FF4BEBA4DA1874 /* Pods_WKDJ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5920D4BE3849BB880A22AFB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29D0C194B13A108832A69E92 /* Pods-WKDJ.debug.xcconfig */,
+				5BA5360ED1D3A3C119A28541 /* Pods-WKDJ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84053A652481E93D00A698AA = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +139,15 @@
 				84053A872481E94200A698AA /* WKDJTests */,
 				84053A922481E94200A698AA /* WKDJUITests */,
 				84053A6F2481E93D00A698AA /* Products */,
+				5920D4BE3849BB880A22AFB1 /* Pods */,
+				F23A7B1720F04224C7BB6A4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		84053A6F2481E93D00A698AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84053A6E2481E93D00A698AA /* WKDJ.app */,
+				84053A6E2481E93D00A698AA /* 竞技帮.app */,
 				84053A842481E94200A698AA /* WKDJTests.xctest */,
 				84053A8F2481E94200A698AA /* WKDJUITests.xctest */,
 			);
@@ -143,6 +201,12 @@
 		84053AA22481ECB500A698AA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				84DA235D248254AD00B33587 /* ZMBaseData.swift */,
+				84DA23612482582D00B33587 /* ZMHomeSportData.swift */,
+				84DA23632482667400B33587 /* ZMAPI.swift */,
+				84DA23672482B0A600B33587 /* ZMAPI+Home.swift */,
+				84DA23652482701D00B33587 /* RequestRouter.swift */,
+				84DA23692482B91300B33587 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -150,6 +214,12 @@
 		84053AA32481ECB500A698AA /* ViewCotroller */ = {
 			isa = PBXGroup;
 			children = (
+				84DA234D2482354E00B33587 /* ZMHomeViewController.swift */,
+				84DA234E2482354E00B33587 /* ZMHomeViewController.xib */,
+				84DA235124823B5A00B33587 /* ZMSportsViewController.swift */,
+				84DA235224823B5A00B33587 /* ZMSportsViewController.xib */,
+				84363C9D2483B83D00CFA6C7 /* ZMGameListCollectionViewController.swift */,
+				84363C9E2483B83D00CFA6C7 /* ZMGameListCollectionViewController.xib */,
 			);
 			path = ViewCotroller;
 			sourceTree = "<group>";
@@ -157,6 +227,11 @@
 		84053AA42481ECB500A698AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84DA235524823C3A00B33587 /* ZMSprotGameListCollectionViewCell.swift */,
+				84DA235624823C3A00B33587 /* ZMSprotGameListCollectionViewCell.xib */,
+				84363CA12483B89600CFA6C7 /* ZMGameListCollectionViewCell.swift */,
+				84363CA22483B89600CFA6C7 /* ZMGameListCollectionViewCell.xib */,
+				84363CA52483F0C900CFA6C7 /* ZMGameListInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,8 +247,21 @@
 			isa = PBXGroup;
 			children = (
 				84053AA72481ECEE00A698AA /* ZMNavigationViewController.swift */,
+				84DA23592482407100B33587 /* UICollectionViewExtension.swift */,
+				84DA235B248244D700B33587 /* ZMScreenUtils.swift */,
+				84363C9624835FB200CFA6C7 /* WKDJ-Bridging-Header.h */,
+				84363C9A248360D200CFA6C7 /* UIImageView+DefaultSetting.h */,
+				84363C9B248360D200CFA6C7 /* UIImageView+DefaultSetting.m */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F23A7B1720F04224C7BB6A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				770C9F3AB358C43C3A3E92E2 /* Pods_WKDJ.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84053A982481E94200A698AA /* Build configuration list for PBXNativeTarget "WKDJ" */;
 			buildPhases = (
+				54F8F326E29DFEFB4D67C61F /* [CP] Check Pods Manifest.lock */,
 				84053A6A2481E93D00A698AA /* Sources */,
 				84053A6B2481E93D00A698AA /* Frameworks */,
 				84053A6C2481E93D00A698AA /* Resources */,
+				65F97E19F9BE481FD5155F2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,7 +283,7 @@
 			);
 			name = WKDJ;
 			productName = WKDJ;
-			productReference = 84053A6E2481E93D00A698AA /* WKDJ.app */;
+			productReference = 84053A6E2481E93D00A698AA /* 竞技帮.app */;
 			productType = "com.apple.product-type.application";
 		};
 		84053A832481E94200A698AA /* WKDJTests */ = {
@@ -244,6 +334,7 @@
 				TargetAttributes = {
 					84053A6D2481E93D00A698AA = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					84053A832481E94200A698AA = {
 						CreatedOnToolsVersion = 11.4;
@@ -280,9 +371,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA23502482354E00B33587 /* ZMHomeViewController.xib in Resources */,
 				84053A7E2481E94200A698AA /* LaunchScreen.storyboard in Resources */,
+				84363CA42483B89600CFA6C7 /* ZMGameListCollectionViewCell.xib in Resources */,
+				84DA235424823B5A00B33587 /* ZMSportsViewController.xib in Resources */,
 				84053A7B2481E94200A698AA /* Assets.xcassets in Resources */,
+				84DA235824823C3A00B33587 /* ZMSprotGameListCollectionViewCell.xib in Resources */,
 				84053A792481E93D00A698AA /* Main.storyboard in Resources */,
+				84363CA02483B83E00CFA6C7 /* ZMGameListCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +398,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54F8F326E29DFEFB4D67C61F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKDJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65F97E19F9BE481FD5155F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKDJ/Pods-WKDJ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKDJ/Pods-WKDJ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WKDJ/Pods-WKDJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84053A6A2481E93D00A698AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA234F2482354E00B33587 /* ZMHomeViewController.swift in Sources */,
 				84053AA82481ECEE00A698AA /* ZMNavigationViewController.swift in Sources */,
+				84DA23682482B0A700B33587 /* ZMAPI+Home.swift in Sources */,
+				84DA235A2482407100B33587 /* UICollectionViewExtension.swift in Sources */,
+				84DA235324823B5A00B33587 /* ZMSportsViewController.swift in Sources */,
+				84DA23642482667400B33587 /* ZMAPI.swift in Sources */,
 				84053A762481E93D00A698AA /* ViewController.swift in Sources */,
+				84DA235724823C3A00B33587 /* ZMSprotGameListCollectionViewCell.swift in Sources */,
+				84363C9C248360D200CFA6C7 /* UIImageView+DefaultSetting.m in Sources */,
+				84DA23622482582D00B33587 /* ZMHomeSportData.swift in Sources */,
+				84DA236A2482B91300B33587 /* HomeViewModel.swift in Sources */,
+				84363C9F2483B83E00CFA6C7 /* ZMGameListCollectionViewController.swift in Sources */,
+				84DA23662482701D00B33587 /* RequestRouter.swift in Sources */,
+				84DA235C248244D800B33587 /* ZMScreenUtils.swift in Sources */,
+				84DA235E248254AD00B33587 /* ZMBaseData.swift in Sources */,
 				84053A722481E93D00A698AA /* AppDelegate.swift in Sources */,
+				84363CA62483F0C900CFA6C7 /* ZMGameListInfo.swift in Sources */,
+				84363CA32483B89600CFA6C7 /* ZMGameListCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,8 +633,10 @@
 		};
 		84053A992481E94200A698AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D0C194B13A108832A69E92 /* Pods-WKDJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JW363H5865;
 				INFOPLIST_FILE = WKDJ/Info.plist;
@@ -490,7 +645,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wkdj.com.WKDJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "竞技帮";
+				SWIFT_OBJC_BRIDGING_HEADER = "WKDJ/Extension/WKDJ-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -498,8 +655,10 @@
 		};
 		84053A9A2481E94200A698AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA5360ED1D3A3C119A28541 /* Pods-WKDJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JW363H5865;
 				INFOPLIST_FILE = WKDJ/Info.plist;
@@ -508,7 +667,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wkdj.com.WKDJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "竞技帮";
+				SWIFT_OBJC_BRIDGING_HEADER = "WKDJ/Extension/WKDJ-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

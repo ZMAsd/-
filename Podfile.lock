@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (5.2.1)
+  - HandyJSON (5.0.1)
+  - JXSegmentedView (1.0.6)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.3)
+  - PINCache (2.3)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - JXSegmentedView
+  - MBProgressHUD
+  - MJRefresh
+  - PINCache
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - JXSegmentedView
+    - MBProgressHUD
+    - MJRefresh
+    - PINCache
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  JXSegmentedView: ceb6fb3a12716408bcd5c4210b93d947d079de25
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 4a477ec6a93a4a419af801867a5af4cf9a5ae32b
+
+COCOAPODS: 1.9.1
